@@ -1,0 +1,10 @@
+{
+  "name": "aws_server_controls",
+  "version": "1.0.0",
+  "description": "A set of scripts to stop and start AWS development isntance",
+  "main": "index.ts",
+  "repository": "https://github.com/Misterguruman/aws_server_controls",
+  "author": "Joseph Langford",
+  "license": "NOLICENSE",
+  "private": false
+}
