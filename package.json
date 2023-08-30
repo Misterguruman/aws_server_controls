@@ -2,9 +2,19 @@
   "name": "aws_server_controls",
   "version": "1.0.0",
   "description": "A set of scripts to stop and start AWS development isntance",
+  "scripts": {
+    "test": "npx ts-node src/index.ts"
+  },
   "main": "index.ts",
   "repository": "https://github.com/Misterguruman/aws_server_controls",
   "author": "Joseph Langford",
   "license": "NOLICENSE",
-  "private": false
+  "private": false,
+  "devDependencies": {
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "@aws-sdk/client-ec2": "^3.399.0",
+    "ts-node": "^10.9.1"
+  }
 }
